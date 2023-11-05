@@ -16,6 +16,7 @@ dates = [('2023-11-13', '2023-11-15'),
 
 
 
+
 def build_urls(url, listings_per_page=18, pages_per_location=15):
     """Builds links for all search pages for a given location"""
     
@@ -46,4 +47,17 @@ def add_quadrants(quadrant):
 def add_date(dates):
     parameter = '&checkin=' + dates[0] + '&checkout=' + dates[1]
     return parameter
+
+
+
+def get_detailed_url(url):
+
+    detailed_url_list = []
+    page = requests.get(url)
+    content = bs4(page.content)
+    productDivs = content.find_all('a', attrs={'class' : 'l1ovpqvx bn2bl2p dir dir-ltr'})
+    for a in productDivs:
+        detailed_url_list.append(a['href'])
+
+    return detailed_url_list
 
