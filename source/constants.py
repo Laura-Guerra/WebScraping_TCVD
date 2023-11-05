@@ -23,3 +23,5 @@ AIRBNN_URL = "https://www.airbnb.es/s/Barcelona--Spain/homes?tab_id=home_tab&ref
 
 
 CARD_CLASS = "l1ovpqvx bn2bl2p dir dir-ltr"
+
+DETAIL_URLS_FILE = "data/details_urls.csv"
