@@ -10,7 +10,7 @@ def build_parameter(key, value):
 
 def add_quadrants_param(quadrant):
     """Generates the geographic parameters for a URL."""
-    keys = ['nelat', 'nelong', 'swlat', 'swlong']
+    keys = ['ne_lat', 'ne_lng', 'sw_lat', 'sw_lng']
     return ''.join([build_parameter(key, value) for key, value in zip(keys, quadrant)])
 
 
@@ -27,7 +27,7 @@ def get_detail_urls_from_page(url):
     return [a['href'] for a in soup.find_all('a', class_=CARD_CLASS)]
 
 
-def build_urls(url, listings_per_page=18, pages_per_location=15):
+def build_urls(listings_per_page=18, pages_per_location=15):
     """Builds a list of URLs for all search pages for a given location and date range."""
     url_list = []
 
@@ -35,7 +35,7 @@ def build_urls(url, listings_per_page=18, pages_per_location=15):
         for quadrant in QUADRANTS:
             for date in DATES:
                 parameters = add_quadrants_param(quadrant) + add_date_param(date)
-                final_url = f'{url}&items_offset={offset}{parameters}'
+                final_url = f'{AIRBNN_URL}&items_offset={offset}{parameters}'
                 url_list.append(final_url)
 
     return url_list
