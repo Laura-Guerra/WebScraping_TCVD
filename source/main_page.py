@@ -4,7 +4,7 @@ import time
 import csv
 import requests
 
-from constants import QUADRANTS, DATES, AIRBNN_URL, CARD_CLASS, DETAIL_URLS_FILE
+from constants import QUADRANTS, DATES, AIRBNB_URL, CARD_CLASS, DETAIL_URLS_FILE
 
 def build_parameter(key, value):
     """Constructs a URL parameter."""
@@ -42,7 +42,7 @@ def build_urls(listings_per_page=18, pages_per_location=15):
                 print(f'Offset {offset}, Quadrant: {quadrant_index + 1}, Date: {date} \n')
                 geo_params = build_quadrants_param(quadrant)
                 date_params = build_date_param(date)
-                search_url = f'{AIRBNN_URL}&items_offset={offset}{geo_params}{date_params}'
+                search_url = f'{AIRBNB_URL}&items_offset={offset}{geo_params}{date_params}'
                 urls.append((search_url, quadrant_index))
     return urls
 
