@@ -19,7 +19,9 @@ DATES =[
     ]
 
 
-AIRBNN_URL = "https://www.airbnb.es/s/Barcelona--Spain/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=7&channel=EXPLORE&date_picker_type=calendar&adults=2&source=structured_search_input_header&search_type=user_map_move&query=Barcelona%2C%20Spain&zoom_level=14.24002901189221&place_id=ChIJ5TCOcRaYpBIRCmZHTz37sE"
+AIRBNN_URL = "https://www.airbnb.es/s/Barcelona--Spain/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2023-12-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=7&channel=EXPLORE&date_picker_type=calendar&adults=2&source=structured_search_input_header&search_type=user_map_move&query=Barcelona%2C%20Spain&zoom_level=14.35412066680454&place_id=ChIJ5TCOcRaYpBIRCmZHTz37sEQ&zoom=14.35412066680454&search_by_map=true"
 
 
 CARD_CLASS = "l1ovpqvx bn2bl2p dir dir-ltr"
+
+DETAIL_URLS_FILE = "data/details_urls.csv"
