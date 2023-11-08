@@ -12,12 +12,19 @@ Així, hem considerat que l’anàlisi de la informació continguda en aquesta p
 No obstant, les dades també poden contribuir en la definició d’estratègies de gestió turística: a través de l’anàlisi de les temporades de major afluència es pot planificar de forma més eficient els recursos, reforçant infraestructures com els sistemes de transport públic o incrementant la presència policial en certes zones.
 
 
-## DESCRIPCIÓ DEL DATASET
+## DESCRIPCIÓ I CONTINGUT DEL DATASET
+TBD
 
 
+## PROPIETARI
+El conjunt de dades recollit i analitzat en aquest projecte pertany a la plataforma Airbnb. Són dades obtingudes públicament a través de *** disponibles a la pàgina web utilitzant tècniques de web scraping, respectant els termes i condicions del portal web. La propietat intel·lectual dels dades originals pertany a l'empresa Airbnb, Inc. i no s'han infringit els drets de propietat de l'entitat ni la privacitat dels usuaris implicats en les dades recollides.
 
-## CONTINGUT
 
+Per garantir una pràctica ètica i legal s'ha fet una revisió dels termes i condicions d'Airbnb i del seu arxiu robots.txt. A més, durant el procés de recopilació de dades, no s'han recopilat dades personals ni informació que pugui ser utilitzada per identificar directament als usuaris del portal web.
+
+*FALTA LA PART DE PROJECTES ANTERIORS*
+https://www.nerdwallet.com/article/travel/airbnb-pricing-statistics
+https://www.sciencedirect.com/science/article/pii/S0261517721000388
 
 
 ## INSPIRACIÓ
@@ -31,3 +38,16 @@ Finalment, també es podria utilitzar aquesta informació per comparar els preus
 Si bé s’han realitzat estudis similars, com en l’anàlisi XXX, considerem que el fet de distribuir els allotjaments per zones delimitades i escollir un conjunt de dates diferents pot aportar informació addicional als informes publicats.
 
 ## LLICÈNCIA
+Aquest projecte està disponible sota la Llicència Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). 
+
+La utilització d'aquesta llicència té l'objectiu de fomentar un ús lliure, obert i transparent de les dades, així com promoure la compartició de coneixement.
+
+Aquesta llicència permet a tercers:
+
+- Copiar i redistribuir el material en qualsevol mitjà o format
+- Adaptar, modificar i transformar el material
+
+Per a qualsevol propòsit, inclòs comercial, sempre que es compleixin amb els següents termes:
+
+- S'ha de reconèixer l'autoria de manera apropiada, proporcionar un enllaç a la llicència i indicant si s'han realitzat canvis al material original.
+- En el cas de modificar o crear a partir del material original, s'han de distribuir sota la mateixa llicència que l'original.
