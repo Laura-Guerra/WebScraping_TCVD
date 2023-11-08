@@ -65,7 +65,7 @@ def get_house_info(house_url):
     area = content.find('div', class_ = AREA_CLASS)
     bedrooms = content.find('div', class_ = BEDROOMS_CLASS)
     parking = content.find('p', class_ = PARKING_CLASS)
-    features_lst = content.find_all('li', class_= 'col-xl-4 col-sm-6 col-12')
+    features_lst = content.find_all('li', class_= FEATURES_CLASS)
 
 
     pass
