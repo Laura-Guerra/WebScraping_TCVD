@@ -26,13 +26,12 @@ def get_house_id(url):
     return url.split("/")[-1]
 
 def get_house_urls():
-    base_url = PISOS_AD_BASE
     with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['ID', 'Type', 'Zone', 'URL'])
 
     for house_type in HOUSE_TYPES:
-        type_filter_url = concatenate_url(base_url, house_type, URL_FILTER)  
+        type_filter_url = concatenate_url(PISOS_AD_BASE, house_type, URL_FILTER)  
 
         for zone in ANDORRA_ZONES:
             page_num = 1
@@ -56,8 +55,26 @@ def get_house_urls():
                 page_num += 1
 
 
-def get_house_info():
+
+
+def get_house_info(house_url):
+    url = concatenate_url(PISOS_AD_BASE, house_url)  
+    content = get_page_content(url)
+
+    price = content.find('p', class_ = PRICE_CLASS)
+    area = content.find('div', class_ = AREA_CLASS)
+    bedrooms = content.find('div', class_ = BEDROOMS_CLASS)
+    parking = content.find('p', class_ = PARKING_CLASS)
+    features_lst = content.find_all('li', class_= 'col-xl-4 col-sm-6 col-12')
+
+
     pass
 
 
-get_house_urls()
+house_url = "/venda/casa-adossada-3-habitacions-2-banys-arinsal/22747"
+
+url = concatenate_url(PISOS_AD_BASE, house_url)  
+content = get_page_content(url)
+html_content = content.prettify()
+#with open('example.html', 'w', encoding='utf-8') as file:
+#    file.write(html_content)
