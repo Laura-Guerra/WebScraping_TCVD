@@ -12,9 +12,24 @@ Així, la plataforma escollida ha estat www.pisos.ad , un dels portals immobilia
 
 ## DESCRIPCIÓ DEL DATASET
 
-
+Per tal de dur a terme l’estudi proposat a l’apartat anterior, s’ha recopilat informació de totes les propietats publicades al portal immobiliari a data del 9 de novembre de 2023, classificant-les en funció de la tipologia de transacció (venda o lloguer) i per parròquia. Si bé no es pot garantir que les dades actuals són estrictament d’habitatges, durant el procés de neteja del conjunt de dades es pot garantir el filtratge d’aquelles que no es corresponen amb aquesta categoria a través de la variable referent al nombre d’habitacions. 
 
 ## CONTINGUT
+
+Cada registre del conjunt de dades correspon a un anunci publicat al portal. No obstant, no necessàriament ha de tractar-se d’una propietat en particular, ja que diferents agències poden publicar anuncis de la mateixa propietat. Així doncs, per cada registre, es recullen les dades següents:
+
+*	Price: preu establert a l’anunci. En cas de tractar-se d’una propietat de lloguer, el preu correspon al preu mensual d’aquesta. El format actual de la variable és el valor en format text, amb punts als milers i en €. 
+*	Area: superfície de la propietat, em m2. De nou, actualment es tracta d’una variable textual composta pel valor de la superfície de la propietat i les unitats corresponents. 
+*	Bedrooms: nombre d’habitacions de la propietat. En cas de no tractar-se d’un immoble, aquesta variable té com a valor “0 Habitacions”. 
+*	Parking: variable categòrica binària que indica si la propietat disposa de garatge. Els seus valors són “Inclòs” i “No Inclòs”. 
+*	Features:
+*	Agency: nom de l’agència immobiliària que ha publicat l’anunci. 
+*	Id: identificador numèric únic de l’anunci, que es correspon amb la referència del portal. 
+*	Type: tipologia de la transacció anunciada. Els possibles valors de la variable són “venda” i “lloguer”. 
+*	Zone: parròquia on es troba ubicada la propietat. Els possibles valors són "ordino",  "canillo", "encamp", "andorra-la-vella", "sant-julia-de-loria", "escaldes-engordany" i  "la-massana". 
+*	URL: enllaç de l’anunci.
+*	Timestamp: data i hora de l’extracció. Degut a l’elevada demanda, és possible que part dels anuncis (sobretot els de lloguer) deixin d’estar publicats al portal al cap d’uns dies i per tant no es pugui accedir de nou a la informació. Per aquest motiu s’ha considerat rellevant indicar el període al qual pertanyen les dades. 
+
 
 ## PROPIETARI
 
