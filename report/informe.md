@@ -30,6 +30,7 @@ Cada registre del conjunt de dades correspon a un anunci publicat al portal. No 
 *	URL: enllaç de l’anunci.
 *	Timestamp: data i hora de l’extracció. Degut a l’elevada demanda, és possible que part dels anuncis (sobretot els de lloguer) deixin d’estar publicats al portal al cap d’uns dies i per tant no es pugui accedir de nou a la informació. Per aquest motiu s’ha considerat rellevant indicar el període al qual pertanyen les dades. 
 
+El conjunt de dades pot trobar-se a https://doi.org/10.5281/zenodo.10112197. 
 
 ## PROPIETARI
 
