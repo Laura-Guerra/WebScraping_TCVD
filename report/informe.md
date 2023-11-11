@@ -71,3 +71,5 @@ Per a qualsevol propòsit, inclòs comercial, sempre que es compleixin amb els s
 * S'ha de reconèixer l'autoria de manera apropiada, proporcionar un enllaç a la llicència i indicant si s'han realitzat canvis al material original.
 * En el cas de modificar o crear a partir del material original, s'han de distribuir sota la mateixa llicència que l'original.
 
+Per més informació sobre la llicència visitar [Creative Commons](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
+
