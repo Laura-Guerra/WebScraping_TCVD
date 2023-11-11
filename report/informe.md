@@ -33,11 +33,17 @@ Cada registre del conjunt de dades correspon a un anunci publicat al portal. No 
 
 ## PROPIETARI
 
-Avís Legal s'informa que www.pisos.ad és un domini de l'empresa ANTONI CAPELLA FERNANDEZ (en endavant “PISOS.AD) amb domicili social al Av de les Escoles, 31 – 5º5ª -AD700- ESCALDES-ENGORDANY (PRINCIPAT D’ANDORRA), i correu
+Avís Legal s'informa que www.pisos.ad és un domini de l'empresa ANTONI CAPELLA FERNANDEZ (en endavant "PISOS.AD") amb domicili social al Av de les Escoles, 31 – 5º5ª -AD700- ESCALDES-ENGORDANY (PRINCIPAT D’ANDORRA), i correu
 electrònic: info@pisos.ad
 
 Inscrita al Registre de Comerç del Principat d’Andorra amb número 920418-Z i amb número de Registre Tributari F-033235-T
 
+Després de verificar els termes i condicions, així com el fitxer robots.txt de PISOS.AD, s'ha pogut determinar que la recopilació de dades específiques com llistats d'immobles, preus, ubicacions i característiques generals està permès sempre que no s'infringeixin els drets de propietat intel·lectual de la plataforma, no es recopilin dades personals dels usuaris ni s'impedeixi el funcionament normal del lloc web. 
+
+Degut a l'absència d'anàlisis anteriors específics sobre el web scraping de dades de PISOS.AD, s'ha realitzat una recerca de casos similars en altres plataformes immobiliàries per identificar quines són les dades d'interés i garantir que el nostre procés s'ajusta a les normatives legals vigents. Exemples d'anàlisis en webs similars:
+* Evolució del preu de la vivenda a Andorra: [Indomio](https://www.indomio.es/mercado-inmobiliario/andorra/)
+* Preu de la vivenda a Andorra per m2: [RealAdvisor](https://realadvisor.es/es/precios-viviendas/44500-andorra)
+* Evolució del preu de la vivenda a Barcelona: [Idealista](https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/cataluna/barcelona-provincia/barcelona/)
 
 ## INSPIRACIÓ
 
@@ -51,5 +57,17 @@ Finalment, es pretén estudiar el nombre d’immobles publicats per cada immobil
 
 
 ## LLICÈNCIA
+Aquest projecte està disponible sota la Llicència Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). 
 
+La utilització d'aquesta llicència té l'objectiu de fomentar un ús lliure, obert i transparent de les dades, així com promoure la compartició de coneixement.
+
+Aquesta llicència permet a tercers:
+
+* Copiar i redistribuir el material en qualsevol mitjà o format
+* Adaptar, modificar i transformar el material
+
+Per a qualsevol propòsit, inclòs comercial, sempre que es compleixin amb els següents termes:
+
+* S'ha de reconèixer l'autoria de manera apropiada, proporcionar un enllaç a la llicència i indicant si s'han realitzat canvis al material original.
+* En el cas de modificar o crear a partir del material original, s'han de distribuir sota la mateixa llicència que l'original.
 
