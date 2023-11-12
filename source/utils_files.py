@@ -8,10 +8,10 @@ def write_element_in_csv(id, house_type, zone, url, filename=URLS_OUTPUT_FILE):
 
     Args:
     id (str): The unique identifier for the house.
-    house_type (str): The type of the house (e.g., apartment, villa).
+    house_type (str): Indicates whether the house is for sale or rent.
     zone (str): The geographical zone of the house.
     url (str): URL of the house listing.
-    filename (str, optional): The name of the CSV file to write to. Defaults to OUTPUT_FILE.
+    filename (str, optional): The name of the CSV file to write to. Defaults to URLS_OUTPUT_FILE.
 
     Notes:
     - Appends a new row to the CSV file.
@@ -27,7 +27,7 @@ def read_element_in_csv(filename=URLS_OUTPUT_FILE):
     Reads and returns the contents of a CSV file as a pandas DataFrame.
 
     Args:
-    filename (str, optional): The name of the CSV file to read from. Defaults to OUTPUT_FILE.
+    filename (str, optional): The name of the CSV file to read from. Defaults to URLS_OUTPUT_FILE.
 
     Returns:
     pd.DataFrame: DataFrame containing the data read from the CSV file, or None if an error occurs.
