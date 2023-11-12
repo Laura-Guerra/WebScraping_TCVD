@@ -5,7 +5,7 @@ Aquest projecte s'ha realitzat per a l'assignatura Tipologia i cicle de vida de 
 ## Autors
 Aquest projecte ha estat desenvolupat per:
 * Àlex Tort Martí - atort9@uoc.edu
-* Laura Guerra Rivas - 
+* Laura Guerra Rivas - lguerrari@uoc.edu
 
 ## Lloc web escollit
 
