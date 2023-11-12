@@ -1,5 +1,19 @@
-# Pràctica 1. Web Scrapping
+# Pràctica 1 - Tipologia i cicle de vida de les dades
+
 Aquest projecte s'ha realitzat per a l'assignatura Tipologia i cicle de vida de les dades del Màster Universitari en Ciència de Dades de la Universitat Oberta de Catalunya. L’objectiu de la pràctica és aplicar tècniques de web scraping mitjançant Python per tal d’extreure les dades del portal immobiliari pisos.ad, que s’utilitzaran posteriorment per analitzar el mercat immobiliari andorrà des de diferents perspectives. 
+
+## Autors
+Aquest projecte ha estat desenvolupat per:
+* Àlex Tort Martí - atort9@uoc.edu
+* Laura Guerra Rivas - 
+
+## Lloc web escollit
+
+https://www.pisos.ad
+
+## Enllaç DOI Zenodo
+
+El dataset s'ha publicat a Zenodo amb el DOI https://doi.org/10.5281/zenodo.10112197. 
 
 ## Estructura del projecte
 
@@ -14,10 +28,6 @@ El repositori consta de les carpetes següents:
   * utils_scraping.py: fitxer on es defineixen les funcions d'obtenció dels enllaços i del contingut d'aquests.
   * utils_url.py: fitxer on es defineix la funció que genera els diferents enllaços sobre els quals s'itera. 
   * main.py: codi principal a través del qual es criden les diferents funcions necessàries per realitzar el procés de scraping. 
-
-
-## Autors
-Aquest projecte ha estat desenvolupat per Àlex Tort i Laura Guerra.
 
 ## Llicència
 Aquest projecte està disponible sota la Llicència Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). 
