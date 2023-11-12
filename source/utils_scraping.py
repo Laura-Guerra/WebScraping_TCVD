@@ -1,5 +1,6 @@
 import csv
-import re
+from time import sleep
+from random import randint
 
 import requests
 from bs4 import BeautifulSoup as bs4
@@ -80,7 +81,7 @@ def get_zone_urls():
 
     try:
         elements = WebDriverWait(driver, 20).until(
-        EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a.btn.mapa__btn[href]")))
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, MAP_BTN_CLASS)))
         urls = [element.get_attribute("href") for element in elements]
 
     except TimeoutException:
@@ -126,6 +127,7 @@ def get_house_urls(zone_urls):
             house_type = url.split('/')[3]
             
             print(f'zone: {zone}, type: {house_type}, page num: {page_num}')
+            zone_page_url = concatenate_url(PISOS_AD_BASE, url)
             zone_page_url = f'{url}?page={page_num}'
 
             content = get_page_content(zone_page_url)
@@ -141,6 +143,8 @@ def get_house_urls(zone_urls):
                 write_element_in_csv(house_id, house_type, zone, house_url)
 
             page_num += 1
+            sleep(randint(1, 4))
+    return
 
 
 
@@ -180,7 +184,6 @@ def iterator(row):
     Returns:
     dict: A dictionary containing extracted house information and additional details.
     """
-    house_info_df = get_house_info(row['URL'])
     price, area, bedrooms, parking, features_lst, immo = get_house_info(row['URL'])
     result_dict = {
                     'Price': price,
