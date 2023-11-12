@@ -1,4 +1,4 @@
-# PROJECTE DE WEB SCRAPING A UNA PLPATAFORMA INMOBILIARIA ANDORRANA
+# PROJECTE DE WEB SCRAPING A UNA PLATAFORMA ImMOBILIÀRIA ANDORRANA
 
 ## INTRODUCCIÓ
 Durant els últims anys el mercat immobiliari andorrà ha observat un augment notable en la demanda d’habitatges, tant de compra com de lloguer, degut al creixent interès de residents estrangers pel país. A part dels avantatges fiscals, altres incentius com la baixa taxa d’atur, l’entorn o la qualitat de vida han convertit a Andorra en un dels països amb un nombre més elevat de nous residents. Aquesta increment de residents ha fet augmentar la demanda d’habitatges, fins al punt en què aquesta supera l’oferta disponible. 
