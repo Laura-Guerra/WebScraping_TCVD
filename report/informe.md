@@ -22,7 +22,7 @@ Cada registre del conjunt de dades correspon a un anunci publicat al portal. No 
 *	Area: superfície de la propietat, em m2. De nou, actualment es tracta d’una variable textual composta pel valor de la superfície de la propietat i les unitats corresponents. 
 *	Bedrooms: nombre d’habitacions de la propietat. En cas de no tractar-se d’un immoble, aquesta variable té com a valor “0 Habitacions”. 
 *	Parking: variable categòrica binària que indica si la propietat disposa de garatge. Els seus valors són “Inclòs” i “No Inclòs”. 
-*	Features:
+*	Features: llista de característiques de la propietat.
 *	Agency: nom de l’agència immobiliària que ha publicat l’anunci. 
 *	Id: identificador numèric únic de l’anunci, que es correspon amb la referència del portal. 
 *	Type: tipologia de la transacció anunciada. Els possibles valors de la variable són “venda” i “lloguer”. 
