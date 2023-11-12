@@ -15,6 +15,7 @@ ANDORRA_ZONES = [
     "la-massana"
 ]
 
+MAP_BTN_CLASS = "a.btn.mapa__btn[href]"
 HOUSE_HREF_CLASS = "list-item__link-1"
 PRICE_CLASS = "fitxa__preu"
 AREA_CLASS = "col-6 col-md fitxa__icos-superficie mb-3 mb-lg-0"

@@ -34,13 +34,17 @@ def main():
 
         get_house_urls(zone_urls)
 
+        
+        print('Reading csv with properties urls')
         df = read_element_in_csv(filename=URLS_OUTPUT_FILE)
         if df is None:
             raise ValueError("Error reading the CSV file.")
 
+        print('Starting properties data extraction')
         # Generate a DataFrame with house information
         result = pd.DataFrame(generate_df(df))
 
+        print('Saving data set')
         # Save the final DataFrame to CSV
         result.to_csv(OUTPUT_FILE, index=False, encoding='utf-8-sig')
 
