@@ -56,6 +56,7 @@ Una altra dimensió rellevant que volem explorar és la distribució de preus en
 
 Finalment, es pretén estudiar el nombre d’immobles publicats per cada immobiliària amb la intenció d’establir si hi ha lliure competència al sector o pel contrari aquest es troba monopolitzat. En cas que el conjunt de dades permetés determinar dos registres duplicats a través de les característiques del conjunt, però publicats per immobiliàries diferents, també es podria determinar si els preus per un mateix immoble publicat per dues immobiliàries diferents és el mateix, o si per contra, una d’elles té un preu més elevat. 
 
+Si bé s’han realitzat estudis similars, com en l’anàlisi de RealAdvisor, considerem que l’estudi proposat aporta informació addicional, com podria ser el fet de que la propietat disposi de pàrquing, algunes de les característiques que es recullen al portal immobiliari, o tot l’estudi relacionat amb les immobiliàries que gestionen els anuncis de les propietats. 
 
 ## LLICÈNCIA
 Aquest projecte està disponible sota la Llicència Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). 
