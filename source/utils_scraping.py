@@ -189,13 +189,12 @@ def iterator(row):
                     'Parking': parking,
                     'Features': ', '.join(feature.text.strip() for feature in features_lst),
                     'Agency': immo,
-                    'Id': row['ID'],
+                    'ID': row['ID'],
                     'Type': row['Type'],
                     'Zone': row['Zone'],
                     'URL': row['URL'],
                     'Timestamp': datetime.now()
                     }
-    print(price)
     return result_dict
       
   
