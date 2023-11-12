@@ -7,6 +7,7 @@ El repositori consta de les carpetes següents:
 * data: conté un fitxer en format csv amb els identificadors, tipus de transaccions (venda o lloguer), zones i enllaços de les diferents propietats publicades al portal. 
 * dataset: conté un fitxer en format csv amb les dades extretes de la pàgina. A la memòria de la pràctica es pot trobar una descripció detallada del conjunt de dades.
 * report: conté la memòria de la pràctica. 
+  * images: conté el diagrama del projecte.
 * source: conté el codi utilitzat per realitzar el web scraping. El codi està dividit en els següents fitxers:
   * constants.py: fitxer on es defineixen les diferents constants necessàries al llarg del procés (enllaços base, classes, filtres, rutes...).
   * utils_files.py: fitxer on es defineixen les funcions necessàries per generar i llegir els fitxers csv. 
