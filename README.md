@@ -15,6 +15,8 @@ https://www.pisos.ad
 
 El dataset s'ha publicat a Zenodo amb el DOI https://doi.org/10.5281/zenodo.10112197. 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10112197.svg)](https://doi.org/10.5281/zenodo.10112197)
+
 ## Estructura del projecte
 
 El repositori consta de les carpetes següents:
