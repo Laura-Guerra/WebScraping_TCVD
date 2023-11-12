@@ -27,7 +27,21 @@ El repositori consta de les carpetes següents:
   * utils_files.py: fitxer on es defineixen les funcions necessàries per generar i llegir els fitxers csv. 
   * utils_scraping.py: fitxer on es defineixen les funcions d'obtenció dels enllaços i del contingut d'aquests.
   * utils_url.py: fitxer on es defineix la funció que genera els diferents enllaços sobre els quals s'itera. 
-  * main.py: codi principal a través del qual es criden les diferents funcions necessàries per realitzar el procés de scraping. 
+  * main.py: codi principal a través del qual es criden les diferents funcions necessàries per realitzar el procés de scraping.
+    
+## Execució
+
+Per tal de poder executar el codi, en primer lloc cal obtenir les llibreries necessàries a través de la comanda:
+
+```
+pip install -r requirements.txt
+```
+
+Un cop descarregades, cal executar el codi principal:
+
+```
+python main.py
+```
 
 ## Llicència
 Aquest projecte està disponible sota la Llicència Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). 
