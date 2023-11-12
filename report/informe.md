@@ -14,6 +14,9 @@ Així, la plataforma escollida ha estat www.pisos.ad , un dels portals immobilia
 
 Per tal de dur a terme l’estudi proposat a l’apartat anterior, s’ha recopilat informació de totes les propietats publicades al portal immobiliari a data del 9 de novembre de 2023, classificant-les en funció de la tipologia de transacció (venda o lloguer) i per parròquia. Si bé no es pot garantir que les dades actuals són estrictament d’habitatges, durant el procés de neteja del conjunt de dades es pot garantir el filtratge d’aquelles que no es corresponen amb aquesta categoria a través de la variable referent al nombre d’habitacions. 
 
+## REPRESENTACIÓ GRÀFICA
+<image src="./images/diagram.png" alt="Diagram">
+
 ## CONTINGUT
 
 Cada registre del conjunt de dades correspon a un anunci publicat al portal. No obstant, no necessàriament ha de tractar-se d’una propietat en particular, ja que diferents agències poden publicar anuncis de la mateixa propietat. Així doncs, per cada registre, es recullen les dades següents:
