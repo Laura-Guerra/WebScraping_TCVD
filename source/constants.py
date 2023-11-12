@@ -27,4 +27,4 @@ IMMO_CLASS = "list-unstyled fitxa__immo"
 
 
 URLS_OUTPUT_FILE = "data/houses_urls.csv"
-OUTPUT_FILE = "dataset/andorra_properties_prices.csv"
+OUTPUT_FILE = "dataset/preus_propietats_andorra.csv"
