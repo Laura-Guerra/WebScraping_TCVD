@@ -41,7 +41,7 @@ pip install -r requirements.txt
 Un cop descarregades, cal executar el codi principal:
 
 ```
-python main.py
+python source/main.py
 ```
 
 ## Llicència
